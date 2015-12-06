@@ -48,8 +48,7 @@ and for Kitematic https://docs.docker.com/kitematic/
 The Base Image
 --------------
 
-I'm kind of paranoic about what I get from the internet, so I decided not to use the
-images provided by Docker as base. Instead I created a brand new from scratch, and
+If you are paranoic about what you get from the internet, you can opt to create your own image instead of using the docker base images. Instead I created a brand new from scratch, and
 these are the steps I followed to achieve that;
 
 * Install debootstrap in host system to create a base image. In case a different
