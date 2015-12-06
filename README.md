@@ -11,12 +11,12 @@ create my docker base image.
 
 Images can be found here for ubuntu https://index.docker.io/u/dalguete/ubuntu-15-04-64/
 
-Most of credits goes to https://github.com/dalguete/docker
+Most of credits goes to https://github.com/dalguete
 
 Index
 -----
 
-- [My Docker stuff](#my-docker-stuff-for-ubuntu-1504-64bits-image).
+- [Docker Guide](#my-docker-stuff-for-ubuntu-1504-64bits-image).
   - [Docker host installation](#docker-host-installation).
   - [The Base Image](#the-base-image).
   - [Configuring Base Image](#configuring-base-image).
@@ -30,8 +30,9 @@ Index
 Docker host installation
 ------------------------
 
-As I'm working from a Ubuntu station, installing **Docker Engine** was pretty simple,
-just follow the directions here https://docs.docker.com/installation/ubuntulinux/#installation.
+Installing **Docker Engine** is pretty simple either in Ubuntu or Debien,
+just follow the directions here https://docs.docker.com/installation/ubuntulinux/#installation for ubuntu or
+http://docs.docker.com/engine/installation/debian/#installation for debian. In the case of debian, when reaching the step of adding the repository URL, make sure apt https transport is installed through `apt-get install apt-transport-https`. 
 Read next sections too until the bottom, as they have really good information
 
 Also important to install **Docker Machine** following guidelines here https://docs.docker.com/machine/install-machine/#on-linux
