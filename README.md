@@ -1,11 +1,17 @@
-My Docker stuff (for Ubuntu 15.04 64bits image)
-===============================================
+Docker Guide 
+============
+
+Supported platforms:
+
+* Ubuntu 15.04 64bits
+* Debian 8.2 64 bits
 
 Here you'll find all docker config, setup and info files that I use in order to
-create my docker base image. Can be found here https://index.docker.io/u/dalguete/ubuntu-15-04-64/
+create my docker base image. 
 
-I created all of this while I was understanding docker and trying to create the
-best env for my day by day work, as web developer (among others). 
+Images can be found here for ubuntu https://index.docker.io/u/dalguete/ubuntu-15-04-64/
+
+Most of credits goes to https://github.com/dalguete/docker
 
 Index
 -----
